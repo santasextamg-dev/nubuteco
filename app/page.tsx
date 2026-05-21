@@ -10,7 +10,7 @@ export default function Home() {
 
   const btnAniversario = 'https://wa.me/5537999268046?text=Quero%20comemorar%20meu%20anivers%C3%A1rio%20no%20Nubuteco!'
   const btnReserva = 'https://wa.me/5537999427524?text=Quero%20saber%20mais%20sobre%20reserva%20de%20mesas!'
-  const btnPresenca = 'https://centraldoseventos.com.br/girus--nubutecoo'
+  const btnPresenca = 'https://centraldoseventos.com.br/sertanejo?vt=couvert'
 
   return (
     <div className="min-h-screen bg-[#F4DDC0] text-[#261D14] selection:bg-[#E79C1A] selection:text-[#261D14] overflow-x-hidden font-sans">

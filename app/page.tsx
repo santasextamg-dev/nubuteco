@@ -7,12 +7,12 @@ import { Beer, Music, Flame, Check, AlertCircle, CalendarHeart, CalendarClock, T
 const galleryUrl = "https://www.matheusmendoncafotos.com.br/GIRUS-05-06-2026/n-VS9vKs"
 
 const photos = [
-  "https://photos.smugmug.com/GIRUS-05-06-2026/i-gxCXfWG/0/KhXPcq872kdWnsjFTWDhL4CSp2QLfQrLKmsZkF85v/XL/MM_%40matheusmendoncaph-34-XL.jpg",
-  "https://photos.smugmug.com/GIRUS-05-06-2026/i-BhdnXzW/0/LNjSNKNp5JQLG6DswbfSP6XmxVqP2qX73Tw8DkQZr/XL/MM_%40matheusmendoncaph-41-XL.jpg",
-  "https://photos.smugmug.com/GIRUS-05-06-2026/i-PLLqnNS/0/LhnS4wnfZwmh7HVKGpBrC8VkWL8pJCLf7k5Nbw2c2/XL/MM_%40matheusmendoncaph-18-XL.jpg",
-  "https://photos.smugmug.com/GIRUS-05-06-2026/i-G42vPkS/0/L4sqn22kwPqBMXqN3Dj9qWZGWMqQNZnwVfWXz5gFQ/XL/MM_%40matheusmendoncaph-54-XL.jpg",
-  "https://photos.smugmug.com/GIRUS-05-06-2026/i-nknbpVg/0/LJmNv4S8VNQSQH837n3Q3WvKtftRMpnFjqvvdzR3g/XL/MM_%40matheusmendoncaph-52-XL.jpg",
+  "https://photos.smugmug.com/GIRUS-05-06-2026/i-2dNm2Jm/0/LmfQfn2qxD27F9X3B5hZPKWLWmRfQ422JdT3H7vtF/XL/MM_%40matheusmendoncaph-149-XL.jpg",
+  "https://photos.smugmug.com/GIRUS-05-06-2026/i-M6kH5NC/0/MSSfrPLnc2cDt2J5hdsg3zDCVttnSPX2wPgd58t38/XL/MM_%40matheusmendoncaph-174-XL.jpg",
   "https://photos.smugmug.com/GIRUS-05-06-2026/i-PcbK8q6/0/KXvZw3JHmpJ49wrQm9CRPSRFHVQDJ4wt7mF6zN2hB/XL/MM_%40matheusmendoncaph-21-XL.jpg",
+  "https://photos.smugmug.com/GIRUS-05-06-2026/i-PLLqnNS/0/LhnS4wnfZwmh7HVKGpBrC8VkWL8pJCLf7k5Nbw2c2/XL/MM_%40matheusmendoncaph-18-XL.jpg",
+  "https://photos.smugmug.com/GIRUS-05-06-2026/i-S6XJB4k/0/MnF6mF5cdvn74jgCwRZRpKsTwH7mSxdhkKbg2nBnf/XL/MM_%40matheusmendoncaph-173-XL.jpg",
+  "https://photos.smugmug.com/GIRUS-05-06-2026/i-wvZCSnt/0/KDb8DDcJxW8b5ZhDqdpxSsnZbxvtvt9rwJdZfg7hb/XL/Storys1-XL.jpg",
 ]
 
 export default function Home() {

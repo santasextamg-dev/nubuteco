@@ -10,7 +10,7 @@ export default function Home() {
 
   const btnAniversario = 'https://wa.me/5537999268046?text=Quero%20comemorar%20meu%20anivers%C3%A1rio%20no%20Nubuteco!'
   const btnReserva = 'https://wa.me/5537999427524?text=Quero%20saber%20mais%20sobre%20reserva%20de%20mesas!'
-  const btnPresenca = 'https://centraldoseventos.com.br/sertanejo?vt=couvert'
+  const btnPresenca = 'https://centraldoseventos.com.br/openfood?vt=arraia'
 
   return (
     <div className="min-h-screen bg-[#F4DDC0] text-[#261D14] selection:bg-[#E79C1A] selection:text-[#261D14] overflow-x-hidden font-sans">
@@ -46,7 +46,7 @@ export default function Home() {
               className="group relative w-full min-h-[52px] py-3 px-4 bg-[#E79C1A] text-[#261D14] rounded-xl shadow-sm active:scale-[0.98] transition-transform flex items-center justify-center gap-2 overflow-hidden touch-manipulation"
             >
               <Ticket className="w-5 h-5 flex-shrink-0" />
-              <span className="font-semibold text-base sm:text-[17px]">Confirme sua presença</span>
+              <span className="font-semibold text-base sm:text-[17px]">Arraiá do Nubuteco</span>
             </button>
 
             <button
@@ -163,11 +163,10 @@ export default function Home() {
 
           <div className="bg-white/50 border border-[#A26B35]/20 rounded-2xl overflow-hidden">
             {[
-              { time: "20h às 21h", price: "R$ 20" },
-              { time: "21h às 22h", price: "R$ 30" },
-              { time: "22h às 23h", price: "R$ 35" },
-              { time: "23h às 00h", price: "R$ 40" },
-              { time: "Após 00h", price: "R$ 50" }
+              { time: "20h às 21h", price: "R$ 30" },
+              { time: "21h às 22h", price: "R$ 40" },
+              { time: "22h às 23h", price: "R$ 50" },
+              { time: "23h às 1h", price: "R$ 60 (sob demanda)" }
             ].map((item, index) => (
               <div
                 key={index}
@@ -218,7 +217,7 @@ export default function Home() {
               className="w-full min-h-[52px] py-3 px-4 bg-[#E79C1A] text-[#261D14] rounded-xl active:scale-[0.98] transition-transform flex items-center justify-center gap-2 font-semibold text-base sm:text-[17px] touch-manipulation"
             >
               <Ticket className="w-5 h-5 flex-shrink-0" />
-              <span>Confirme sua presença</span>
+              <span>Arraiá do Nubuteco</span>
             </button>
 
             <button
